@@ -124,19 +124,19 @@ func TestWithinLimit(t *testing.T) {
 		{
 			name:  "exact limit",
 			log:   "exercism🔍",
-			limit: 10,
+			limit: 9,
 			want:  true,
 		},
 		{
 			name:  "under limit",
 			log:   "exercism🔍",
-			limit: 11,
+			limit: 10,
 			want:  true,
 		},
 		{
 			name:  "exact limit",
 			log:   "exercism🔍",
-			limit: 9,
+			limit: 8,
 			want:  false,
 		},
 	}
